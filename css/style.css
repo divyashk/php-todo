@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:white;
+}
+a.btn:hover{
+    color: black;
+}
+section{
+    padding:100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6600CC;
+    color: black;
+    padding: 20px;
+
+}
+.nav .logo{
+    color: white;
+}
+.nav > ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav ul li{
+    margin: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    width: 100%;
+    
+    align-items: center;
+    height: 100%;
+}
+
+.main .add{
+    background-color: #333333;
+    border-radius: 10px;
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.main .add form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    
+    height: 100px;
+    align-items: center;
+    
+}
+.main .add form input{
+    width:70%;
+    border-radius: 8px;
+    border:none;
+    padding: 5px;
+    transition: 0.5sec;
+    background-color: darkgrey;
+
+}
+
+.main .add form button{
+    
+    width: 100px;
+    color: black;
+    background-color: #6600CC;
+    border-radius: 3px;
+    border: none;
+    padding:5px;
+    transition: 0.5sec;
+
+}
+.main .add form button:hover{
+    background-color:#FFCC00;
+    
+}
+
+.main .todo-show
+{   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.main .todo-show .items{
+    background-color: #999999;
+    margin:10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main .todo-show .items .task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .todo-show .items .task h1{
+    margin:10px;
+}
+
+
