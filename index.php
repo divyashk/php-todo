@@ -16,13 +16,13 @@ require "db_conn.php";
                 <h1 class='logo'>
                     TO - DO list
                 </h1>
-                <ul>
+                <!-- <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">about</a></li>
                     <li><a href="#">sign-in</a></li>
                     <li><a href="#">sign-up</a></li>
 
-                </ul>
+                </ul> -->
             </section>
             
         
@@ -122,29 +122,6 @@ require "db_conn.php";
             })
 
         </script>
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
-
-    <script>
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    var firebaseConfig = {
-        apiKey: "AIzaSyCuoIWQZSgvedVzkxzPIg5SIF9JltKYN2A",
-        authDomain: "to-do-app-68f48.firebaseapp.com",
-        databaseURL: "https://to-do-app-68f48.firebaseio.com",
-        projectId: "to-do-app-68f48",
-        storageBucket: "to-do-app-68f48.appspot.com",
-        messagingSenderId: "860733095284",
-        appId: "1:860733095284:web:89d437f975e97f150e0021",
-        measurementId: "G-6SL6KT3J8V"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-    </script>
+    
     </body>
 </html>
