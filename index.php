@@ -82,17 +82,15 @@ require "db_conn.php";
                 </div>
 
             </section>
+
             <section class='about' id='about'>
                 <div class='heading'>
-                    <h2>Made by Divyasheel</h2>
+                    <h2>Made by DK18 <span>&#129304;</span></h2>
                     <p>
                         Used PHP(PDO) and Ajax
                     </p>
                     <div class='social-links'>
                         <a href="https://github.com/divyashk" class="fa fa-github"></a>
-                                            
-                       
-                        
                     </div>
                 </div>
             </section>
