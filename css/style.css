@@ -45,9 +45,9 @@ html,body {
 
 .main {
   background: transparent;
-  
+  max-width:850px;
   width: 90%;
-  
+  min-height:100vh;
   margin: 30px auto;
   border-radius: 10px;
 }
